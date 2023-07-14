@@ -5,9 +5,6 @@ A really fast C++ library for
 
 delaunator-cpp is a C++ port from https://github.com/mapbox/delaunator a JavaScript implementation of very fast 2D Delaunay algorithm.
 
-[![Build Status](https://travis-ci.org/delfrrr/delaunator-cpp.svg?branch=master)](https://travis-ci.org/delfrrr/delaunator-cpp)
-[![badge](https://mapbox.s3.amazonaws.com/cpp-assets/hpp-skel-badge_blue.svg)](https://github.com/mapbox/hpp-skel)
-
 ## Features
 
 * Probably the fastest C++ open source 2D Delaunay implementation
@@ -60,4 +57,4 @@ BM_uniform/500000           400 ms        399 ms          2
 BM_uniform/1000000          994 ms        993 ms          1
 ```
 
-Library is ~10% faster then JS version for 1M uniform points ([details](https://github.com/delfrrr/delaunator-cpp/pull/8#issuecomment-422690056))
+Library is ~10% faster then JS version for 1M uniform points.
